@@ -5,18 +5,18 @@ import { Button } from "@/components/ui/button";
 const HeroSection = () => {
     const socialIcon = [
         {
-            img: "/images/icon/twitter-icon.svg",
-            href: "#!",
-            icon: "Twitter"
+            img: "/images/icon/link.svg",
+            href: "https://www.linkedin.com/in/mehediuiux37/",
+            icon: "LinkedIn"
         },
         {
             img: "/images/icon/behance-icon.svg",
-            href: "#!",
+            href: "https://www.behance.net/mehediuiux-01",
             icon: "Behance"
         },
         {
             img: "/images/icon/dribble-icon.svg",
-            href: "#!",
+            href: "https://dribbble.com/mehediuiux-01",
             icon: "Dribble"
         },
     ];
@@ -30,15 +30,15 @@ const HeroSection = () => {
                     <div className="border-x border-primary/10">
                         <div className="relative flex flex-col xs:flex-row items-center xs:items-start justify-center xs:justify-between max-w-3xl mx-auto gap-10 xs:gap-3 px-4 sm:px-7 pt-22 pb-8 sm:pb-12">
                             <div className="absolute top-0 transform -translate-y-1/2">
-                                <Image src={"/images/hero-sec/user-img.png"} alt="user-img" width={145} height={145} className="border-4 border-white rounded-full" />
+                                <Image src={"/images/hero-sec/circle.png"} alt="user-img" width={145} height={145} className="border-4 border-white rounded-full" />
                                 <span className="absolute bottom-2.5 right-5 w-4 h-4 bg-green-500 border-2 border-white rounded-full" />
                             </div>
                             <div className="flex flex-col gap-2 sm:gap-3 items-center text-center xs:items-start">
-                                <h1>Elena Marsh</h1>
-                                <p className="text-violet-700 font-normal">Senior UI & UX Designer</p>
+                                <h1>Md Mehedi Hasan</h1>
+                                <p className="text-violet-700 font-normal">UI & UX Designer</p>
                                 <div className="flex items-center gap-2">
                                     <Image src={"/images/icon/map-icon.svg"} alt="map-icon" width={20} height={20} />
-                                    <p className="text-primary">Brooklyn, NYC</p>
+                                    <p className="text-primary">Dhaka, Bangladesh</p>
                                 </div>
                             </div>
                             <div className="flex flex-col md:flex-row items-center gap-4">
@@ -53,7 +53,7 @@ const HeroSection = () => {
                                 </div>
                                 <Button asChild className="h-auto rounded-full p-0.5!">
                                     <Link
-                                        href="#"
+                                        href="https://wa.link/e4em9g"
                                         className="inline-block p-0.5 rounded-full bg-[linear-gradient(96.09deg,_#9282F8_12.17%,_#F3CA4D_90.71%)]"
                                     >
                                         <span className="flex items-center gap-3 bg-primary hover:bg-[linear-gradient(96.09deg,_#9282F8_12.17%,_#F3CA4D_90.71%)] py-2.5 px-5 rounded-full">
