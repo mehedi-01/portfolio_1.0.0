@@ -1,7 +1,7 @@
 import { Badge } from "@/components/ui/badge";
 
 const AboutMe = () => {
-    const servicesBedge = [ "User Experience", "UI Design", "Mobile App Design",  "Web site design", "Responsive Design", "Prototyping", "Illustration","UI Development"];
+    const servicesBedge = [ "User Experience", "UI Design", "Mobile App Design",  "Web site design", "Responsive Design", "Prototyping", "UI Development", "User Research", "Wireframing", "Interaction Design","Figma","Adobe Photoshop","Web site design","HTML","CSS"];
     return (
         <section>
             <div className="container">
@@ -13,7 +13,7 @@ const AboutMe = () => {
                             <h5 className="text-secondary font-normal">Previously work at Assistant It Manager, Visionary Tech Solution.</h5>
                         </div>
                         <div className="flex flex-col gap-4">
-                            <p className="text-sm text-primary uppercase font-medium">Services</p>
+                            <p className="text-sm text-primary uppercase font-medium">Skill</p>
                             <div className="flex flex-wrap gap-2 sm:gap-3">
                                 {servicesBedge?.map((value, index) => {
                                     return (

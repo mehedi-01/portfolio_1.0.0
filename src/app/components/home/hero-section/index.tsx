@@ -45,7 +45,7 @@ const HeroSection = () => {
                                 <div className="flex items-center gap-2">
                                     {socialIcon?.map((value, index) => {
                                         return (
-                                            <Link href={value?.href} key={index} className="w-fit p-2.5 sm:p-3.5 hover:bg-primary/5 border border-primary/10 rounded-full">
+                                            <Link href={value?.href} key={index} target="blank" className="w-fit p-2.5 sm:p-3.5 hover:bg-primary/5 border border-primary/10 rounded-full">
                                                 <Image src={value?.img} alt={value?.icon} width={18} height={18} />
                                             </Link>
                                         )
@@ -54,6 +54,7 @@ const HeroSection = () => {
                                 <Button asChild className="h-auto rounded-full p-0.5!">
                                     <Link
                                         href="https://wa.link/e4em9g"
+                                        target="blank"
                                         className="inline-block p-0.5 rounded-full bg-[linear-gradient(96.09deg,_#9282F8_12.17%,_#F3CA4D_90.71%)]"
                                     >
                                         <span className="flex items-center gap-3 bg-primary hover:bg-[linear-gradient(96.09deg,_#9282F8_12.17%,_#F3CA4D_90.71%)] py-2.5 px-5 rounded-full">

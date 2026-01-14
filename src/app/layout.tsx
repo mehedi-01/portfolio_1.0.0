@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Typefolio",
+  title: "Mehedi Hasan",
   description: "Typefolio - Nextjs Templates",
 };
 
