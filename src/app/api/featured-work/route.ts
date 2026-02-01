@@ -56,7 +56,15 @@ const featureWork = [
         link: "https://www.behance.net/gallery/242194093/Your-forever-space-on-the-internet",
     },
 
-        {
+    {
+        title: "Financial CRM Dashboard  UI Design",
+        description: "Designed a comprehensive CRM dashboard for financial services, focusing on data visualization and user efficiency.",
+        roles: ["UI Design"],
+        image: "/images/feature-work/all.png",
+        link: "https://www.behance.net/gallery/243324373/Financial-CRM-Dashboard-UI-Design",
+    },
+    
+    {
         title: "Smart Home UI Kit Design",
         description: "A comprehensive UI kit designed for smart home applications, featuring modern and intuitive components to enhance user interaction and control over smart devices.",
         roles: ["UI Design"],
