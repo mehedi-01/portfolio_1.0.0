@@ -30,7 +30,7 @@ const FeaturedWork = () => {
                         <div className="flex flex-col xs:flex-row gap-5 items-center justify-between">
                             <p className="text-sm tracking-[2px] text-primary uppercase font-medium">Featured work</p>
                             <Button asChild variant={"outline"} className="h-auto">
-                                <Link href={"https://drive.google.com/file/d/1scu-Up_pO3OwbtW17j2vQOZU5eNKJld-/view?usp=sharing"} target="blank" className="py-3 px-5">
+                                <Link href={"https://drive.google.com/drive/u/0/folders/1v2bRhJr7M91kSFBOz6l5uvBMoQ1pu27l"} target="blank" className="py-3 px-5">
                                     Download CV
                                 </Link>
                             </Button>

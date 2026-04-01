@@ -44,6 +44,8 @@ const educationData = [
 
 const projectOverview = {
     caseStudies: [
+        { name: "Foundations UX Design ", url: "https://drive.google.com/file/d/1kzBm2xv1kdq6QV5q8p-caFAzJKfrfWE8/view?usp=sharing" },
+        { name: "UI UX Design Career Track Program", url: "https://drive.google.com/file/d/1kzBm2xv1kdq6QV5q8p-caFAzJKfrfWE8/view?usp=sharing" },
         { name: "UI UX Design Fundamentals ", url: "https://drive.google.com/file/d/1dJAL8-wkx3HPqWt85h7WDGIh5LSSeVT3/view" },
         { name: "HTML, CSS & JavaScript Beginner", url: "https://www.udemy.com/certificate/UC-794f40ea-949f-46a3-aaf7-a4293b8112d5/" },
         { name: "Responsive Web Design", url: "https://www.freecodecamp.org/certification/mehedi-01/responsive-web-design" },
